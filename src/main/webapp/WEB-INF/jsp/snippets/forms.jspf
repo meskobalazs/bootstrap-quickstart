@@ -1,0 +1,141 @@
+﻿
+<!-- Forms
+================================================== -->
+<div class="bs-docs-section">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="page-header">
+				<h1 id="forms">Űrlapok</h1>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="bs-component">
+				<form class="form-horizontal">
+					<fieldset>
+						<legend>Jelmagyarázat</legend>
+						<div class="form-group">
+							<label for="inputEmail" class="col-lg-2 control-label">Email</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="inputEmail"
+									placeholder="Email">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="inputPassword" class="col-lg-2 control-label">Jelszó</label>
+							<div class="col-lg-10">
+								<input type="password" class="form-control" id="inputPassword"
+									placeholder="Password">
+								<div class="checkbox">
+									<input type="checkbox"> <label>Jelölőgomb</label>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="textArea" class="col-lg-2 control-label">Többsoros
+								szövegmező</label>
+							<div class="col-lg-10">
+								<textarea class="form-control" rows="3" id="textArea"></textarea>
+								<span class="help-block">Egy hosszabb súgófeilrat, amely
+									egy új sorból indul, és hosszabb is lehet mint egyetlen sor.</span>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-lg-2 control-label">Rádiógombok</label>
+							<div class="col-lg-10">
+								<div class="radio">
+									<input type="radio" name="optionsRadios" id="optionsRadios1"
+										value="option1" checked> <label>Az első opció
+										ez</label>
+								</div>
+								<div class="radio">
+									<input type="radio" name="optionsRadios" id="optionsRadios2"
+										value="option2"> <label>A második opció lehet
+										más is</label>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="select" class="col-lg-2 control-label">Legördülők</label>
+							<div class="col-lg-10">
+								<select class="form-control" id="select">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select> <br> <select multiple class="form-control">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-lg-10 col-lg-offset-2">
+								<button class="btn btn-default">Mégsem</button>
+								<button type="submit" class="btn btn-primary">Elküld</button>
+							</div>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		<div class="col-lg-4 col-lg-offset-1">
+			<form class="bs-component">
+				<div class="form-group">
+					<label class="control-label" for="focusedInput">Fókuszált
+						beviteli mező</label> <input class="form-control" id="focusedInput"
+						type="text" value="Ez fókuszban van...">
+				</div>
+				<div class="form-group">
+					<label class="control-label" for="disabledInput">Letiltott
+						beviteli mező</label> <input class="form-control" id="disabledInput"
+						type="text" placeholder="Letiltott bemenet..." disabled>
+				</div>
+				<div class="form-group has-warning">
+					<label class="control-label" for="inputWarning">Beviteli
+						mező figyelmeztetéssel</label> <input type="text" class="form-control"
+						id="inputWarning">
+				</div>
+				<div class="form-group has-error">
+					<label class="control-label" for="inputError">Beviteli mező
+						hibával</label> <input type="text" class="form-control" id="inputError">
+				</div>
+				<div class="form-group has-success">
+					<label class="control-label" for="inputSuccess">Beviteli
+						mező helyes adattal</label> <input type="text" class="form-control"
+						id="inputSuccess">
+				</div>
+				<div class="form-group">
+					<label class="control-label" for="inputLarge">Nagy beviteli
+						mező</label> <input class="form-control input-lg" type="text"
+						id="inputLarge">
+				</div>
+				<div class="form-group">
+					<label class="control-label" for="inputDefault">Alap
+						beviteli mező</label> <input type="text" class="form-control"
+						id="inputDefault">
+				</div>
+				<div class="form-group">
+					<label class="control-label" for="inputSmall">Kis beviteli
+						mező</label> <input class="form-control input-sm" type="text"
+						id="inputSmall">
+				</div>
+				<div class="form-group">
+					<label class="control-label">Bemeneti mező
+						bővítőeszközökkel</label>
+					<div class="input-group">
+						<span class="input-group-addon">$</span> <input type="text"
+							class="form-control"> <span class="input-group-btn">
+							<button class="btn btn-default" type="button">Gomb</button>
+						</span>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

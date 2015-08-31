@@ -6,3 +6,5 @@
 # Maven
 log/
 target/
+target-grunt/*
+!target-grunt/dist

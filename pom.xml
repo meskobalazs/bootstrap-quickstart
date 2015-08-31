@@ -91,22 +91,28 @@
 						<resource>
 							<targetPath>/</targetPath>
 							<directory>src/main/webapp</directory>
+							<excludes>
+								<exclude>static/**</exclude>
+							</excludes>
 						</resource>
+						<!--<resource>
+							<targetPath>/assets</targetPath>
+							<directory>target-grunt/dist</directory>
+						</resource>-->
 						<resource>
 							<targetPath>WEB-INF/classes</targetPath>
 							<directory>src/main/resources</directory>
 						</resource>
 					</webResources>
+					<packagingExcludes>assets/*.*</packagingExcludes>
 				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>pl.allegro</groupId>
 				<artifactId>grunt-maven-plugin</artifactId>
-				<version>1.5.2</version>
+				<version>1.5.1</version>
 				<configuration>
-					<filteredResources>
-                        <filteredResource>maven-properties.json</filteredResource>
-                    </filteredResources>
+					<jsSourceDirectory>assets</jsSourceDirectory>
 				</configuration>
 				<executions>
                     <execution>

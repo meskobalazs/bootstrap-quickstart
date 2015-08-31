@@ -95,10 +95,6 @@
 								<exclude>static/**</exclude>
 							</excludes>
 						</resource>
-						<!--<resource>
-							<targetPath>/assets</targetPath>
-							<directory>target-grunt/dist</directory>
-						</resource>-->
 						<resource>
 							<targetPath>WEB-INF/classes</targetPath>
 							<directory>src/main/resources</directory>
@@ -119,6 +115,7 @@
                         <goals>
                             <goal>create-resources</goal>
                             <goal>npm</goal>
+							<goal>bower</goal>
                             <goal>grunt</goal>
                         </goals>
                     </execution>

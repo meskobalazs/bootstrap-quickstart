@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-quickstart",
+  "version": "1.0.0",
+  "author": {
+    "name": "Balázs Meskó",
+    "email": "meskobalazs@gmail.com",
+    "url": "https://github.com/meskobalazs"
+  },
+  "description": "Spring MVC example application, featuring Bootstrap",
+  "license": "Apache 2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meskobalazs/bootstrap-quickstart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meskobalazs/bootstrap-quickstart/issues"
+  },
+  "licenses": {
+    "type": "Apache 2.0",
+    "url": "https://github.com/meskobalazs/bootstrap-quickstart/LICENSE"
+  },
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
